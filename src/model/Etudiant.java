@@ -19,12 +19,8 @@ public class Etudiant {
         etudiantStr+= "=> Nom d'etudiant: " + getName() + "           \n";
         etudiantStr+= "-------------------------------------------------------------------- \n";
         etudiantStr+= "=> les notes a calculer          : " + getNotes() + "        \n";
-        //etudiantStr+= "=> Nombre de mois             : " + getNombre_Mois() + "             \n";
-        //etudiantStr+= "=> Taux mensuel               : " + getTaux_Mensuel() + "            \n" ;
-        //etudiantStr+= "-------------------------------------------------------------------- \n";
-       // etudiantStr+= "=> Mensualité                 : "
-                   // + (getMensualite() == 0.0 ? "NON-CALCULE":getMensualite()+ " DH/mois")+"\n";
-       // etudiantStr+= "==================================================================== \n";
+  
+        etudiantStr+= "==================================================================== \n";
 
             return etudiantStr;
         }
